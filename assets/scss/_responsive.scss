@@ -1,0 +1,1094 @@
+/*========================
+
+Responsive Style
+
+==========================*/
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width\
+
+@media only screen and (max-width: 1920px) {
+
+    
+}
+@media only screen and (min-width: 991.99px) {
+   
+
+}
+@media only screen and (max-width: 1515px){
+
+    section.hero-4 {
+        background-position: unset;
+    }
+ 
+}
+@media only screen and (max-width: 1475px){
+
+    section.hero-2::after {
+        width: 32%;
+    }
+
+}
+
+@media only screen and (max-width: 1350px){
+
+    section.hero-3 .hero-content h1 {
+        font-size: 50px;
+        line-height: 62px;
+    }
+    section.hero-3 .hero-3-img {
+        width: 57%;
+        top: 36%;
+        right: 0%;
+    }
+}
+
+
+// Large devices (desktops, less than 1200px)
+@media only screen and (min-width: 1200px) and (max-width: 1502px) {
+
+
+
+}
+// Large devices (desktops, less than 1200px)
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+
+}
+@media  only screen and (min-width: 992px) and (max-width: 1199px) {
+
+
+    .sm-mint a .sub-arrow{
+        display: none;
+    }
+    
+
+} //End min 992px to max 1199px
+// Medium devices (tablets, less than 1199px)
+@media  only screen and (min-width: 1199px){ 
+
+  
+    .sm-mint a.has-submenu {
+        padding-right: 34px;
+      }
+   
+
+
+}
+
+
+@media  only screen and (max-width: 1199px) {
+   
+    h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    section.blog .single-blog .sb-content a {
+    
+        font-size: 14px;
+    }
+    h3 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+
+
+
+
+    section.about-section .about-content {
+        padding-top: 25px;
+    }
+    section.about-section::before {
+      
+        width: 255px;
+        height: 320px;
+    }
+    section.our-team .single-team-member .stm-text {
+      
+        margin-top: -50px;
+        padding: 15px;
+    }
+
+    section.schedule {
+        padding-top: 50px;
+    }
+    section.schedule::after{
+        display: none;
+    }
+    section.schedule .event-schedule nav .nav-tabs {
+        width: 90%;
+        margin: 0px auto 50px;
+    }
+    section.pricing .single-priceing {
+        padding: 34px 20px;
+    }
+    section.blog::before{
+        display: none;
+    }
+    section.blog .single-blog .sb-content p {
+        line-height: 22px;
+    }
+
+    section.schedule .schedule-animation::before{
+        display: none;
+    }
+    footer.footer-area .footer-bottom .fb-s-icon ul li a {
+        font-size: 13px;
+        padding: 8px 13px;
+    }
+    footer.footer-area .footer-bottom .fb-s-icon {
+     
+        width: 20%;
+    }
+    footer.footer-area .footer-bottom .fb-text {
+        width: 65%;
+    }
+    section.partner .single-partner ul li {
+        width: 13%;
+    }
+    section.blog {
+        margin-top: 60px;
+    }
+    section.hero-2::after {
+        width: 36%;
+    }
+    section.counter #clockdiv .time {
+        width: 22%;
+        padding: 20px 15px;
+    }
+    section.counter #clockdiv .time span {
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 72px;
+    }
+    section.counter #clockdiv .dot {
+        font-size: 40px;
+        padding: 50px 10px;
+    }
+    section.counter #clockdiv .time .smalltext {
+        font-size: 18px;
+    }
+    section.counter #clockdiv .time span {
+        font-size: 42px;
+        line-height: 54px;
+    }
+    section.partner2 .single-partner ul li {
+        width: 24%;
+    }
+    section.hero-3 .hero-content h1 {
+        font-size: 42px;
+        line-height: 53px;
+    }
+    section.our-team3 .single-team-member {
+        height: 300px;
+    }
+    .single-fune-fact.left-pad {
+        padding-left: 0 !important;
+    }
+    .blog-sideber .recent-post .single-recent-blog .srb-text h5 {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .blog-sideber .recent-post .single-recent-blog .srb-text span {
+        font-size: 13px;
+    }
+    section.blog-3 .get-a-comment span {
+        font-size: 12px;
+    }
+    section.our-team3 .single-team-member .stm-img .stm-icon {
+      
+        left: 20%;
+    }
+
+    
+} // End Max 1199px
+
+@media only screen and (max-width: 1091px){
+
+}
+
+
+@media only screen and (max-width: 1043px){
+
+    section.hero-3::before {
+        height: 118%;
+    }
+}  
+
+
+@media only screen and (min-width: 768px) and (max-width: 991.90px) {
+
+    header.header-area .sm-mint li .btn-2 {
+        margin-left: 0;
+        font-size: 12px;
+        padding: 12px 15px;
+        color: #fff;
+    }
+    .sm-mint a {
+        padding: 14px 16px;
+        color: #fff;
+        font-size: 10px;
+    }
+    .sm-mint a .sub-arrow{
+        display: none;
+    }
+    section.partner3 .single-partner {
+        padding: 60px 20px;
+    }
+    .blog-sideber .recent-post .single-recent-blog .srb-text h5 {
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .blog-sideber .recent-post .single-recent-blog .srb-text {
+        padding-left: 15px;
+        padding-top: 0px;
+    }
+    .blog-sideber .recent-post .single-recent-blog .srb-text span {
+        font-size: 10px;
+    }
+    section.our-team .single-team-member .stm-img .stm-icon {
+        left: 0%;
+    }
+    section.our-team.our-team3 .single-team-member .stm-img .stm-icon {
+  
+        left: 7%;
+    }
+
+
+} // End min 767px to max 991px
+@media only screen and (min-width: 768px){
+    .sm-mint>li>a.btn-1 {
+        position: relative !important;
+        background-image: -moz-linear-gradient( -9deg, rgb(251,35,154) 0%, rgb(155,59,245) 97%);
+        background-image: -webkit-linear-gradient( -9deg, rgb(251,35,154) 0%, rgb(155,59,245) 97%);
+        background-image: -ms-linear-gradient( -9deg, rgb(251,35,154) 0%, rgb(155,59,245) 97%);
+        color: $primaryColor;
+        font-family: $primaryFont;
+        padding: 20px 50px;
+        border-radius: 35px;
+        text-transform: uppercase;
+        font-weight: 400;
+        text-align: center;
+        letter-spacing:0;
+        z-index: 1;
+        overflow: hidden;
+        display: inline-block;
+        
+        &::before{
+            position: absolute !important;
+            content: '';
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            opacity: 0;
+            transition: .3s ease;
+            background-image: -moz-linear-gradient( -9deg, rgb(155,59,245) 3%, rgb(251,35,154) 100%);
+            background-image: -webkit-linear-gradient( -9deg, rgb(155,59,245) 3%, rgb(251,35,154) 100%);
+            background-image: -ms-linear-gradient( -9deg, rgb(155,59,245) 3%, rgb(251,35,154) 100%);
+            z-index: -1;
+        }
+    
+        
+        &:hover{
+           
+            &::before{
+                opacity: 1;
+            }
+       
+        }
+    }
+} 
+// Medium devices (tablets, less than 992px)
+@media  only screen and (max-width: 991px){ 
+    a.btn-2 {
+        font-size: 14px;
+        padding: 12px 15px;
+    }
+    section.about-section .about-content a.btn-3 {
+        font-size: 14px;
+        margin-left: 15px;
+        padding: 12px 25px;
+    }
+
+    h1 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    section.hero-1 .hero-slide1 .hero-slide-wrapper .hero-slide-content h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    section.about-section .about-content {
+        padding-top: 0;
+    }
+    section.our-team::before{
+        display: none;
+    }
+    section.about-section .about-content p {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    section.schedule .schedule-animation img{
+        display: none;
+    }
+    section.our-team .single-team-member .stm-text {
+        
+        padding: 10px;
+    }
+    section.schedule .event-schedule nav .nav-tabs {
+        width: 100%;
+        margin: 0;
+    }
+    section.schedule .event-schedule .tab-content .tab-pane .event-details .ed-content span {
+        line-height: 19px;
+        font-size: 13px;
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+    section.schedule .event-schedule .tab-content .tab-pane .event-details {
+        background: #fff;
+    }
+    section.pricing .single-priceing h1 {
+        font-size: 60px;
+        line-height: 68px;
+    }
+    section.pricing .single-priceing {
+        padding: 34px 11px;
+    }
+    section.blog .single-blog .sb-content a {
+        font-size: 12px;
+    }
+    section.our-team {
+        padding-top: 80px;
+    }
+    section.pricing {
+       
+        margin-top: 50px;
+    }
+    section.pricing .pricing-top h1 {
+
+        padding: 50px 0px;
+    }
+    section.partner {
+        margin-top: 60px;
+    }
+    section.partner::before {
+        width: 100px;
+        height: 44px;
+    }
+    section.blog .blog-top {
+        margin-bottom: 30px;
+    }
+    footer.footer-area {
+        margin-top: 60px;
+    }
+    footer.footer-area .footer-bottom .fb-text p {
+        font-size: 11px;
+        line-height: 19px;
+    }
+    footer.footer-area .footer-bottom .fb-s-icon {
+        width: 24%;
+    }
+    section.about-section {
+        padding-top: 70px;
+    }
+    section.hero-2::after{
+        display: none;
+    }
+    section.hero-2 .hero-content::before{
+        display: none;
+    }
+    section.hero-2 .hero-content h1 {
+        font-size: 70px;
+        line-height: 83px;
+    }
+    section.ab-section2 .about-content a.btn-2 {
+        padding: 11px 26px;
+    }
+    section.ab-section2 .about-content a.btn-1 {
+
+        margin-left: 17px;
+        padding: 11px 19px;
+    }
+    section.hero-3::before {
+        height: 100%;
+    }
+    section.hero-3 .hero-content h1 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    section.hero-3 .hero-content span {
+        font-size: 12px;
+    }
+    section.our-team3 .single-team-member {
+        height: 220px;
+    }
+    section.fun-fact {
+        margin-top: 70px;
+    }
+    section.event-outcome h1 {
+        margin-bottom: 0px;
+    }
+    section.fun-fact .single-fune-fact .sff {
+        font-size: 50px;
+        line-height: 65px;
+    }
+    section.fun-fact .single-fune-fact p {
+        font-size: 16px;
+    }
+    section.fun-fact .single-fune-fact {
+        text-align: center;
+    }
+    section.hero-4 {
+        padding-bottom: 0;
+    }
+    section.blog-3 .single-blog .blog-reviews ul li {
+        margin-right: 5px;
+        font-size: 10px;
+    }
+    section.blog-3 .get-a-comment span {
+        font-size: 10px;
+    }
+    section.blog-3 .single-blog .blog-reviews ul li span a {
+        font-size: 12px;
+    }
+    section.contact-us .contact-information-2 h2 {
+        font-size: 22px;
+    }
+    section.contact-us .contact-us-de-info .single-contact-details {
+        margin-left: 5%;
+    }
+    section.faq .card .card-header .accordion-toggle.collapsed {
+        font-size: 16px;
+    }
+
+} /*--Max-width :991px----------*/
+
+// Small devices (landscape phones, less than 868px)
+@media  only screen and (max-width: 867px) {
+    section.hero-3 .hero-content h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+
+} /*===========Max-width : 867px---------------*/
+
+// Small devices (landscape phones, less than 768px)
+@media  only screen and (max-width: 767px) {
+
+    .sm-mint a {
+        color: rgb(0, 0, 0);
+        padding: 10px 10px;
+    }
+    .sm-mint {
+        padding: 31px 20px;
+    }
+    header.header-area .sm-mint li .btn-2 {
+        color: #fff;
+        margin-left: 0;
+    }
+
+    section.about-section .amout-img {
+        position: relative;
+        width: 100%;
+        margin-left: 0;
+    }
+    section.about-section::before {
+        width: 255px;
+        height: 340px;
+    }
+    section.about-section .about-content {
+        padding-top: 50px;
+    }
+    section.about-section .about-content p {
+  
+        padding-bottom: 30px;
+    }
+    section.schedule .event-schedule nav .nav-tabs .nav-link {
+    
+        padding: 5px;
+        margin: 5px;
+    }
+    section.schedule .event-schedule nav .nav-tabs .nav-link .es-day .es-day-details span {
+        font-size: 35px;
+        line-height: 55px;
+    }
+    section.schedule .event-schedule nav .nav-tabs {
+     
+        display: table-cell;
+    }
+    section.schedule .event-schedule nav .nav-tabs .nav-link .es-day .es-day-details {
+
+        margin-right: 10px;
+    }
+    section.schedule .event-schedule .tab-content .tab-pane .event-details {
+     
+        display: inline-block;
+        padding: 0px 2%;
+    }
+    section.schedule .event-schedule .tab-content .tab-pane .event-details .ed-img {
+
+        width: 30%;
+        margin: auto;
+        padding-bottom: 0px;
+    }
+    section.schedule .event-schedule .tab-content .tab-pane .event-details .ed-content {
+
+        width: 100%;
+        padding: 25px 10px;
+        margin-left: 0;
+    }
+    section.our-team .single-team-member .stm-text {
+        padding: 25px 20px;
+    }
+    section.pricing .single-priceing {
+        margin: 30px auto;
+    }
+    footer.footer-area .footer-bottom .logo {
+        position: relative;
+        width: 30%;
+    }
+    footer.footer-area .footer-bottom .fb-s-icon {
+        text-align: center;
+        width: 100%;
+    }
+    footer.footer-area .footer-bottom .fb-text {
+        text-align: center;
+        width: 100%;
+    }
+    footer.footer-area .footer-bottom {
+        width: 100%;
+        display: block;
+    }
+    
+    .logo {
+        width: 30%;
+        margin: auto;
+    }
+    section.hero-1 .hero-slide1 .hero-slide-wrapper img.hero-effect{
+        display: none;
+    }
+    header.header-area .sm-mint li .btn-2 {
+    
+        margin-left: 0;
+        display: block;
+        margin-top: 20px;
+    }
+    header.header-area.nav-fixed .sm-mint li .btn-2 {
+
+        margin-left: 0px;
+    }
+    section.counter #clockdiv .time span {
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 54px;
+    }
+    section.counter #clockdiv .time .smalltext {
+        font-size: 15px;
+    }
+    section.hero-2 .hero-content h1 {
+        font-size: 55px;
+        line-height: 62px;
+    }
+    section.hero-2 .hero-content span {
+ 
+        margin-left: 0;
+        margin-right: 10px;
+        font-size: 12px;
+    }
+    section.counter #clockdiv .dot {
+        font-size: 40px;
+        padding: 45px 10px;
+    }
+    section.ab-section2 .about-content {
+        padding-top: 0;
+        margin-bottom: 50px;
+    }
+    section.hero-3 .hero-3-img {
+        width: 44%;
+        top: 36%;
+        right: 0%;
+        position: relative;
+        margin: auto;
+    }
+    section.hero-3::before {
+        height: 75%;
+        background-position: center;
+        background-size: cover;
+    }
+    section.hero-3 .hero-content {
+        padding-bottom: 0;
+    }
+    section.hero-3 .hero-3-animation img.h3-animation3{
+        display: none;
+    }
+    section.hero-3 .hero-3-animation img.h3-animation2 {
+        bottom: 65%;
+    }
+    section.hero-3 .hero-3-animation img.h3-animation1{
+        display: none;
+    }
+    section.event-outcome {
+        margin-top: 80px;
+    }
+    section.our-team3 .single-team-member {
+        height: 500px;
+    }
+    section.event-outcome::before{
+        display: none;
+    }
+    section.hero-4 .hero-content h1 {
+        font-size: 47px;
+        line-height: 63px;
+        margin-bottom: 30px;
+    }
+    section.speaker-details .sd-text {
+        margin-top: 50px;
+    }
+    header.header-area .sm-mint li .btn-1 {
+        margin-left: 0px;
+        display: block;
+        color: #fff;
+        font-size: 15px;
+    }
+    .blog-sideber .tag {
+        margin-bottom: 80px;
+    }
+    .form-check-inline {
+        display: inline-block;
+    }
+    section.contact-us {
+        margin-top: 60px;
+    }
+    section.contact-us .contact-details {
+        margin-bottom: 50px;
+    }
+    section.contact-us .contact-us-de-info .single-contact-details {
+        margin-left: 0%;
+        margin-bottom: 40px;
+    }
+    section.contact-us .contact-us-de-info {
+        margin-bottom: 50px;
+        text-align: left;
+        display: inline-grid;
+    }
+    section.faq {
+        margin-top: 60px;
+    }
+    section.gallery {
+        margin-top: 60px;
+    }
+    section.venue {
+        margin-top: 60px;
+    }
+    section.venue .about-venu {
+        margin-bottom: 50px;
+    }
+    section.venue .venue-img {
+        margin-left: 0;
+    }
+    section.commingsoon h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    section.commingsoon #clockdiv .time {
+        width: 110px;
+        padding: 48px 0px;
+    }
+    section.commingsoon #clockdiv .time span {
+        font-size: 55px;
+        line-height: 69px;
+    }
+    section.commingsoon #clockdiv .time .smalltext {
+        font-size: 16px;
+    }
+    section.commingsoon #clockdiv .dot {
+        font-size: 42px;
+        padding: 80px 10px;
+    }
+    section.commingsoon .subscribe {
+        max-width: 430px;
+    }
+    section.our-team .single-team-member .stm-img .stm-icon {
+        left: 30%;
+    }
+    section.our-team .single-team-member .stm-img .stm-icon {
+        left: 30%;
+    }
+    #main-menu {
+        position: fixed;
+    max-height: 383px;
+    border-bottom: 0;
+    overflow-y: scroll;
+    width: 100%;
+    top: 70px;
+    left: 0;
+      }
+
+      section.hero-1 .hero-slide1 .slide .hero-slide-wrapper .hero-slide-content h1 {
+        font-size: 57px;
+        line-height: 76px;
+    }
+    header.header-area.nav-fixed .sm-mint li .btn-1 {
+  
+        margin-top: 15px;
+    }
+}// ENd max 767px
+
+// Extra small devices (portrait phones, less than 615px)
+@media  only screen and (max-width: 615px) { 
+
+    
+
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media  only screen and (max-width: 575px) { 
+
+    section.hero-1 .hero-slide1 .hero-slide-wrapper .hero-slide-content h1 {
+        font-size: 42px;
+        line-height: 50px;
+    }
+    section.hero-1 .hero-slide1 .hero-slide-wrapper .hero-slide-content {
+        padding: 170px 0px 120px;
+    }
+    section.hero-1 .hero-slide1 .hero-slide-wrapper .hero-slide-content p {
+    
+        width: 100%;
+        padding: 25px 35px 35px 0px;
+    }
+    a.btn-1 {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+    section.about-section {
+        padding-top: 80px;
+    }
+    header.header-area {
+       
+        padding: 8px 0px;
+    }
+    section.hero-4 .hero-content h1 {
+        font-size: 42px;
+        line-height: 52px;
+        margin-bottom: 30px;
+    }
+    section.counter-2 #clockdiv {
+        padding: 0px 10px;
+    }
+    section.commingsoon h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    section.commingsoon #clockdiv .time {
+        width: 85px;
+        padding: 40px 0px;
+    }
+    section.hero-1 .hero-slide1 .slide .hero-slide-wrapper .hero-slide-content {
+     
+        padding: 170px 0px 110px;
+    }
+
+ } // End max 575px
+// Extra small devices (portrait phones, less than 512px)
+@media  only screen and (max-width: 512px) { 
+
+    section.hero-4 .hero-content {
+        padding-top: 150px;
+    }
+
+} //End max 512px
+ 
+// Extra small devices (portrait phones, less than 493px)
+@media  only screen and (max-width: 492px) { 
+    
+    section.partner::before{
+        display: none;
+    }
+    section.partner .single-partner ul li {
+        width: 45%;
+        margin-right: 20px;
+    }
+    footer.footer-area .footer-nav ul li a {
+
+        padding: 10px 8px;
+        font-size: 12px;
+    }
+    section.hero-2 .hero-content h1 {
+        font-size: 40px;
+        line-height: 51px;
+    }
+    section.hero-2 .hero-content {
+        padding: 140px 0px 150px;
+    }
+    section.counter #clockdiv .time span {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    section.counter #clockdiv .time .smalltext {
+        font-size: 13px;
+    }
+    section.counter #clockdiv .dot {
+        font-size: 30px;
+        padding: 35px 10px;
+    }
+    section.counter #clockdiv .time {
+        width: 22%;
+        padding: 20px 5px;
+    }
+    section.counter #clockdiv .dot {
+        font-size: 26px;
+        padding: 35px 2px;
+    }
+
+    section.our-team3 .single-team-member {
+        height: 400px;
+    }
+    section.hero-4 .hero-content h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+    section.speaker-details {
+        margin-top: 80px;
+    }
+    section.hero-1 .hero-slide1 .slide .hero-slide-wrapper .hero-slide-content p {
+     
+        width: 368px;
+    }
+    section.hero-1 .hero-slide1 .slide .hero-slide-wrapper .hero-slide-content h1 {
+        font-size: 50px;
+        line-height: 62px;
+    }
+ }
+ // End max 492px 
+
+
+// Extra small devices (portrait phones, less than 460px)
+@media  only screen and (max-width: 459px) { 
+
+
+    footer.footer-area .subscribe form .sub-btn {
+       
+        font-size: 12px;
+    }
+    .subscribe h1 {
+        font-size: 26px;
+    }
+    footer.footer-area .subscribe {
+
+        padding-top: 80px;
+        padding-bottom: 55px;
+    }
+section.blog-3 .single-blog .sbc-details h2 {
+    font-size: 25px;
+    line-height: 36px;
+}
+
+
+ }// End Max 459px 
+
+ 
+// Extra small devices (portrait phones, less than 434px)
+@media  only screen and (max-width: 434px) { 
+
+    section.hero-1 .hero-slide1 .hero-slide-wrapper .hero-slide-content h1 {
+        font-size: 35px;
+        line-height: 42px;
+    }
+    section.hero-1 .hero-slide1 .hero-slide-wrapper .hero-slide-content p {
+ 
+        padding: 25px 10px 35px 0px;
+    }
+    section.about-section {
+        padding-top: 50px;
+    }
+    footer.footer-area .subscribe form .form-control {
+
+        font-size: 11px;
+    }
+    section.hero-2 .hero-content span {
+        margin-right: 6px;
+        font-size: 8px;
+    }
+    section.hero-3 .hero-3-img {
+        top: 50%;
+    }
+    section.our-team {
+        padding-top: 50px;
+    }
+    section.hero-4 .hero-content span {
+        font-size: 12px;
+    }
+    section.commingsoon #clockdiv .time {
+        width: 65px;
+        padding: 45px 0px;
+    }
+    section.commingsoon #clockdiv .time span {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    section.commingsoon #clockdiv .dot {
+        font-size: 35px;
+        padding: 70px 5px;
+    }
+    section.commingsoon .subscribe {
+        max-width: 380px;
+    }
+    section.commingsoon .subscribe form input.form-control {
+    
+        font-size: 11px;
+    }
+    section.commingsoon #clockdiv .time .smalltext {
+        font-size: 11px;
+    }
+    section.our-team .single-team-member .stm-img .stm-icon {
+        left: 25%;
+    }
+    
+    section.hero-1 .hero-slide1 .slide .hero-slide-wrapper .hero-slide-content h1 {
+        font-size: 40px;
+        line-height: 51px;
+    }
+ } // End max 434px
+
+ 
+// Extra small devices (portrait phones, less than 402px)
+@media  only screen and (max-width: 402px) { 
+    .subscribe h1 {
+        font-size: 22px;
+    }
+    section.our-team3 .single-team-member {
+        height: 360px;
+    }
+    .pagination ul li {
+        height: 40px;
+        width: 40px;
+        margin-left: 7px;
+    }
+    .pagination ul li a {
+        font-size: 20px;
+        padding: 10px;
+    }
+    section.hero-1 .hero-slide1 .slide .hero-slide-wrapper .hero-slide-content p {
+        width: 330px;
+    }
+  
+ } // End max 402px
+
+// Extra small devices (portrait phones, less than 388px)
+@media  only screen and (max-width: 388px) { 
+
+    section.our-team3 .single-team-member {
+        height: 330px;
+    }
+    section.commingsoon {
+        padding: 90px 0px;
+    }
+    section.commingsoon .subscribe form .sub-btn {
+        font-size: 10px;
+        padding: 0px 21px;
+        margin-left: 10px;
+    }
+    section.commingsoon .subscribe {
+        max-width: 320px;
+    }
+    section.commingsoon h1 {
+        font-size: 26px;
+        line-height: 35px;
+    }
+    section.our-team .single-team-member .stm-img .stm-icon {
+        left: 20%;
+    }
+
+ }// End max 388px
+
+ // Extra small devices (portrait phones, less than 375px)
+@media  only screen and (max-width: 375px) { 
+
+    section.hero-3 .hero-content span {
+        font-size: 10px;
+    }
+
+
+}// End max 375px
+
+
+
+// Extra small devices (portrait phones, less than 359px)
+@media  only screen and (max-width: 365px) { 
+    section.hero-1 .hero-slide1 .hero-slide-wrapper .hero-slide-content {
+        padding: 120px 0px 70px;
+    }
+    h1 {
+        font-size: 25px;
+        line-height: 32px;
+    }
+    a.btn-2 {
+        font-size: 12px;
+        padding: 10px 13px;
+    }
+    section.about-section .about-content a.btn-3 {
+        font-size: 12px;
+        margin-left: 15px;
+        padding: 10px 23px;
+    }
+    section.schedule .event-schedule .tab-content .tab-pane .event-details .ed-content h5 {
+        transition: .3s ease;
+        font-size: 19px;
+    }
+    footer.footer-area .subscribe form .form-control {
+        font-size: 9px;
+        padding: 25px 16px;
+    }
+    footer.footer-area .subscribe form .sub-btn {
+        font-size: 10px;
+        padding: 15px 7px;
+    }
+    footer.footer-area .subscribe h1 {
+        margin-bottom: 35px;
+        font-size: 20px;
+    }
+    section.counter #clockdiv .time .smalltext {
+        font-size: 11px;
+    }
+    section.hero-2 .hero-content h1 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    section.hero-3 .hero-content h1 {
+        font-size: 27px;
+        line-height: 35px;
+    }
+    section.our-team3 .single-team-member {
+        height: 290px;
+    }
+    section.hero-4 .hero-content h1 {
+        font-size: 26px;
+        line-height: 38px;
+        margin-bottom: 30px;
+    }
+    section.speaker-details .sd-text h2 {
+        font-size: 27px;
+    }
+    section.faq .card .card-header .accordion-toggle.collapsed {
+        font-size: 14px;
+    }
+    section.hero-1 .hero-slide1 .slide .hero-slide-wrapper .hero-slide-content p {
+        width: 290px;
+    }
+    section.hero-1 .hero-slide1 .slide .hero-slide-wrapper .hero-slide-content h1 {
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+}
+
+

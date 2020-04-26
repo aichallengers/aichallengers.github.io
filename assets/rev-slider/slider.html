@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+		<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+		<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+		<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+		<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+		<head>
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<title>Slider 1 - Slider Revolution</title>
+			<meta name="description" content="Slider Revolution Example" />
+			<meta name="keywords" content="fullscreen image, grid layout, flexbox grid, transition" />
+			<meta name="author" content="ThemePunch" />
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+
+			<!-- LOAD JQUERY LIBRARY -->
+			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+			
+			<!-- LOADING FONTS AND ICONS -->
+			<link href="https://fonts.googleapis.com/css?family=Roboto:400%7CPoppins:600%2C500%7CMontserrat:400" rel="stylesheet" property="stylesheet" media="all" type="text/css" >
+
+			
+			<link rel="stylesheet" type="text/css" href="fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+			<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+			
+			<!-- REVOLUTION STYLE SHEETS -->
+			<link rel="stylesheet" type="text/css" href="css/rs6.css">
+			<!-- REVOLUTION LAYERS STYLES -->
+						<!-- REVOLUTION JS FILES -->
+			<script type="text/javascript" src="js/revolution.tools.min.js"></script>
+			<script type="text/javascript" src="js/rs6.min.js"></script>
+			
+			<script type="text/javascript">function setREVStartSize(e){			
+			try {								
+				var pw = document.getElementById(e.c).parentNode.offsetWidth,
+					newh;
+				pw = pw===0 || isNaN(pw) ? window.innerWidth : pw;
+				e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+				e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+				e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+				e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+				e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+				e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+				e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);		
+				if(e.layout==="fullscreen" || e.l==="fullscreen") 						
+					newh = Math.max(e.mh,window.innerHeight);				
+				else{					
+					e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+					for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];					
+					e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+					e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+					for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+										
+					var nl = new Array(e.rl.length),
+						ix = 0,						
+						sl;					
+					e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+					e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+					e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+					e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;					
+					for (var i in e.rl) nl[i] = e.rl[i]<window.innerWidth ? 0 : e.rl[i];
+					sl = nl[0];									
+					for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}															
+					var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);					
+
+					newh =  (e.type==="carousel" && e.justify==="true" ? e.gh[ix] : (e.gh[ix] * m)) + (e.tabh + e.thumbh);
+				}			
+				
+				if(window.rs_init_css===undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));					
+				document.getElementById(e.c).height = newh;
+				window.rs_init_css.innerHTML += "#"+e.c+"_wrapper { height: "+newh+"px }";				
+			} catch(e){
+				console.log("Failure at Presize of Slider:" + e)
+			}					   
+		  };</script>
+		</head>
+		
+		
+
+			<!-- START Slider 1 REVOLUTION SLIDER 6.1.8 --><p class="rs-p-wp-fix"></p>
+			<rs-module-wrap id="rev_slider_21_1_wrapper" data-alias="slider-1" data-source="gallery" style="background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
+				<rs-module id="rev_slider_21_1" style="display:none;" data-version="6.1.8">
+					<rs-slides>
+						<rs-slide data-key="rs-28" data-title="Slide" data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:0;">
+							<img src="assets/dummy.png" data-lazyload="assets/transparent.png" class="rev-slidebg" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-21-slide-28-layer-4" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-text="w:normal;"
+								data-dim="w:100%;h:100%;"
+								data-frame_999="o:0;st:w;sR:8700;"
+								style="z-index:8;"
+							><img src="assets/dummy.png" width="2560" height="1707" data-lazyload="assets/slide1-scaled.jpg" data-c="cover-proportional" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-21-slide-28-layer-5" 
+								data-type="text"
+								data-color="#fff"
+								data-rsp_ch="on"
+								data-xy="x:392px;y:265px;"
+								data-text="w:normal;s:72;l:90;ls:1px;fw:600;"
+								data-dim="w:613px;minh:0px;"
+								data-frame_1="st:200;sR:200;"
+								data-frame_999="o:0;st:w;sR:8500;"
+								style="z-index:10;font-family:Poppins;style:"font-size:72px;"
+							>World Business<br />
+Conference 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-21-slide-28-layer-6" 
+								data-type="text"
+								data-color="#fff"
+								data-rsp_ch="on"
+								data-xy="x:390px;y:468px;"
+								data-text="w:normal;s:16;l:28;ls:0px;"
+								data-dim="w:467px;minh:0px;"
+								data-frame_1="st:660;sR:660;"
+								data-frame_999="o:0;st:w;sR:8040;"
+								style="z-index:11;font-family:Montserrat;"
+							>Make another step. Spread the inspiration. Join us at  the<br />
+ biggest annual event and get ready to learn from the world's greatest experts. 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-21-slide-28-layer-7" 
+								data-type="shape"
+								data-rsp_ch="on"
+								data-text="w:normal;"
+								data-dim="w:100%;h:100%;"
+								data-frame_999="o:0;st:w;sR:8700;"
+								style="z-index:9;background-color:rgba(138,43,226,0.5);"
+							> 
+							</rs-layer><!--
+
+							--><a
+								id="slider-21-slide-28-layer-16" 
+								class="rs-layer rev-btn"
+								href="#ticket" target="_self" rel="nofollow"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:400px;y:594px;"
+								data-text="w:normal;s:16;l:72;fw:500;"
+								data-padding="r:54;l:54;"
+								data-border="bor:35px,35px,35px,35px;"
+								data-frame_1="st:980;sp:390;sR:980;"
+								data-frame_999="o:0;st:w;sR:7630;"
+								data-frame_hover="bgc:linear-gradient(90deg, rgba(155,59,245,1) 0%, rgba(251,35,154,1) 100%);bor:35px,35px,35px,35px;sp:300ms;e:Power1.easeInOut;bri:120%;"
+								style="z-index:12;background:linear-gradient(90deg, rgba(251,35,154,1) 0%, rgba(155,59,245,1) 100%);font-family:Poppins;"
+							>Get ticket now 
+							</a><!--
+-->						</rs-slide>
+						<rs-slide data-key="rs-29" data-title="Slide" data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:0;">
+							<img src="assets/dummy.png" data-lazyload="assets/transparent.png" class="rev-slidebg" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-21-slide-29-layer-4" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-text="w:normal;"
+								data-dim="w:100%;h:100%;"
+								data-frame_999="o:0;st:w;sR:8700;"
+								style="z-index:8;"
+							><img src="assets/dummy.png" width="2560" height="1707" data-lazyload="assets/slide2-scaled.jpg" data-c="cover-proportional" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-21-slide-29-layer-5" 
+								data-type="text"
+								data-color="#fff"
+								data-rsp_ch="on"
+								data-xy="x:392px;y:265px;"
+								data-text="w:normal;s:72;l:90;ls:1px;fw:600;"
+								data-dim="w:613px;minh:0px;"
+								data-frame_1="st:200;sR:200;"
+								data-frame_999="o:0;st:w;sR:8500;"
+								style="z-index:10;font-family:Poppins;style:"font-size:72px;"
+							>World Business<br />
+Conference 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-21-slide-29-layer-6" 
+								data-type="text"
+								data-color="#fff"
+								data-rsp_ch="on"
+								data-xy="x:390px;y:468px;"
+								data-text="w:normal;s:16;l:28;ls:0px;"
+								data-dim="w:467px;minh:0px;"
+								data-frame_1="st:660;sR:660;"
+								data-frame_999="o:0;st:w;sR:8040;"
+								style="z-index:11;font-family:Montserrat;"
+							>Make another step. Spread the inspiration. Join us at  the<br />
+ biggest annual event and get ready to learn from the world's greatest experts. 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-21-slide-29-layer-7" 
+								data-type="shape"
+								data-rsp_ch="on"
+								data-text="w:normal;"
+								data-dim="w:100%;h:100%;"
+								data-frame_999="o:0;st:w;sR:8700;"
+								style="z-index:9;background-color:rgba(138,43,226,0.5);"
+							> 
+							</rs-layer><!--
+
+							--><a
+								id="slider-21-slide-29-layer-16" 
+								class="rs-layer rev-btn"
+								href="#ticket" target="_self" rel="nofollow"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:400px;y:594px;"
+								data-text="w:normal;s:16;l:72;fw:500;"
+								data-padding="r:54;l:54;"
+								data-border="bor:35px,35px,35px,35px;"
+								data-frame_1="st:980;sp:390;sR:980;"
+								data-frame_999="o:0;st:w;sR:7630;"
+								data-frame_hover="bgc:linear-gradient(90deg, rgba(155,59,245,1) 0%, rgba(251,35,154,1) 100%);bor:35px,35px,35px,35px;sp:300ms;e:Power1.easeInOut;bri:120%;"
+								style="z-index:12;background:linear-gradient(90deg, rgba(251,35,154,1) 0%, rgba(155,59,245,1) 100%);font-family:Poppins;"
+							>Get ticket now 
+							</a><!--
+-->						</rs-slide>
+						<rs-slide data-key="rs-30" data-title="Slide" data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:0;">
+							<img src="assets/dummy.png" data-lazyload="assets/transparent.png" class="rev-slidebg" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-21-slide-30-layer-4" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-text="w:normal;"
+								data-dim="w:100%;h:100%;"
+								data-frame_999="o:0;st:w;sR:8700;"
+								style="z-index:8;"
+							><img src="assets/dummy.png" width="2560" height="1709" data-lazyload="assets/slide3-scaled.jpg" data-c="cover-proportional" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-21-slide-30-layer-5" 
+								data-type="text"
+								data-color="#fff"
+								data-rsp_ch="on"
+								data-xy="x:392px;y:265px;"
+								data-text="w:normal;s:72;l:90;ls:1px;fw:600;"
+								data-dim="w:613px;minh:0px;"
+								data-frame_1="st:200;sR:200;"
+								data-frame_999="o:0;st:w;sR:8500;"
+								style="z-index:10;font-family:Poppins;style:"font-size:72px;"
+							>World Business<br />
+Conference 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-21-slide-30-layer-6" 
+								data-type="text"
+								data-color="#fff"
+								data-rsp_ch="on"
+								data-xy="x:390px;y:468px;"
+								data-text="w:normal;s:16;l:28;ls:0px;"
+								data-dim="w:467px;minh:0px;"
+								data-frame_1="st:660;sR:660;"
+								data-frame_999="o:0;st:w;sR:8040;"
+								style="z-index:11;font-family:Montserrat;"
+							>Make another step. Spread the inspiration. Join us at  the<br />
+ biggest annual event and get ready to learn from the world's greatest experts. 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-21-slide-30-layer-7" 
+								data-type="shape"
+								data-rsp_ch="on"
+								data-text="w:normal;"
+								data-dim="w:100%;h:100%;"
+								data-frame_999="o:0;st:w;sR:8700;"
+								style="z-index:9;background-color:rgba(138,43,226,0.5);"
+							> 
+							</rs-layer><!--
+
+							--><a
+								id="slider-21-slide-30-layer-16" 
+								class="rs-layer rev-btn"
+								href="#ticket" target="_self" rel="nofollow"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:400px;y:594px;"
+								data-text="w:normal;s:16;l:72;fw:500;"
+								data-padding="r:54;l:54;"
+								data-border="bor:35px,35px,35px,35px;"
+								data-frame_1="st:980;sp:390;sR:980;"
+								data-frame_999="o:0;st:w;sR:7630;"
+								data-frame_hover="bgc:linear-gradient(90deg, rgba(155,59,245,1) 0%, rgba(251,35,154,1) 100%);bor:35px,35px,35px,35px;sp:300ms;e:Power1.easeInOut;bri:120%;"
+								style="z-index:12;background:linear-gradient(90deg, rgba(251,35,154,1) 0%, rgba(155,59,245,1) 100%);font-family:Poppins;"
+							>Get ticket now 
+							</a><!--
+-->						</rs-slide>
+					</rs-slides>
+					<rs-progress class="rs-bottom" style="visibility: hidden !important;"></rs-progress>
+				</rs-module>
+		<script type="text/javascript">
+		if(typeof revslider_showDoubleJqueryError === "undefined") {
+			function revslider_showDoubleJqueryError(sliderID) {
+				var err = "<div class='rs_error_message_box'>";
+				err += "<div class='rs_error_message_oops'>Oops...</div>";
+				err += "<div class='rs_error_message_content'>";
+				err += "You have some jquery.js library include that comes after the Slider Revolution files js inclusion.<br>";
+				err += "To fix this, you can:<br>&nbsp;&nbsp;&nbsp; 1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on";
+				err += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jQuery.js inclusion and remove it";
+				err += "</div>";
+			err += "</div>";
+				jQuery(sliderID).show().html(err);
+			}
+		}
+		</script>
+			</rs-module-wrap>
+			<!-- END REVOLUTION SLIDER -->
+
+				<script type="text/javascript">
+					
+					var	revapi21,
+						tpj;
+					jQuery(function() {
+						tpj = jQuery;
+						if(tpj("#rev_slider_21_1").revolution == undefined){
+							revslider_showDoubleJqueryError("#rev_slider_21_1");
+						}else{
+							revapi21 = tpj("#rev_slider_21_1").show().revolution({
+								jsFileLocation:"js/",
+								visibilityLevels:"1240,1024,778,480",
+								gridwidth:1920,
+								gridheight:800,
+								lazyType:"smart",
+								spinner:"spinner0",
+								editorheight:"800,768,960,720",
+								responsiveLevels:"1240,1024,778,480",
+								disableProgressBar:"on",
+								navigation: {
+									onHoverStop:false
+								},
+								fallbacks: {
+									allowHTML5AutoPlayOnAndroid:true
+								},
+							});
+						}
+						
+					});
+				</script>
+
+
+		<body>
+					</body>
+		
+		</html>
+		

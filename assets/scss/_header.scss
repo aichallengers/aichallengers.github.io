@@ -1,0 +1,151 @@
+
+/*===================Header Style===============*/
+
+header.header-area{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 2;
+    padding: 20px 0px;
+    
+
+        .sm-mint{
+            
+           /*  .nav-item.active{
+
+                .nav-link{
+                    color: #ff007a;
+                }
+            } */
+            li{
+                a{
+                    &:focus{
+                        color: #000000;
+                    }
+                }
+              
+                .btn-1.blue{
+                    background: #27bdb5;
+                    transition: .5s ease !important;
+
+                    &:hover{
+                        background: #1a41c9;
+                    }
+                }
+                .btn-1{
+                    padding: 14px 25px;
+                    &::before{
+                    }
+                    margin-left: 15px;
+                    &:hover{
+                        color: #fff;
+                    }
+                }
+               
+            }
+        }
+   
+}
+header.header-area.nav-fixed {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    animation-duration: 0.8s;
+    animation-name: fadeInDown;
+    animation-timing-function: ease-in-out;
+    box-shadow: 0px 13px 35px -12px rgba(35,35,35,0.15);
+    background: #fff;
+
+  .sm-mint{
+
+    li{
+
+        .a {
+            color: #000000;
+
+            &:hover{
+                color: #ff007a;
+            }
+
+           
+        }
+        
+        .btn-2{
+            color: #fff;
+            margin-left: 15px;
+            &:hover{
+                color: #fff;
+            }
+        }
+        .btn-1.blue{
+            color: #fff;
+            background: #27bdb5;
+            transition: .5s ease !important;
+
+            &:hover{
+                background: #1a41c9;
+            }
+        }
+        .btn-1{
+            color: #fff;
+            margin-left: 15px;
+            &:hover{
+                color: #fff;
+            }
+        }
+       
+    }
+}
+    
+}
+
+header.header-area.error {
+
+position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 2;
+    padding: 20px 0px;
+    .sm-mint{
+
+        >li{
+    
+            >.a {
+                color: #000000;
+    
+                &:hover{
+                    color: #ff007a;
+                }
+    
+               
+            }
+            
+            .btn-2{
+                color: #fff;
+                margin-left: 15px;
+                &:hover{
+                    color: #fff;
+                }
+            }
+            .btn-2.blue{
+                color: #fff;
+                background: #27bdb5;
+            }
+            .btn-1{
+                color: #fff;
+                margin-left: 15px;
+                &:hover{
+                    color: #fff;
+                }
+            }
+           
+        }
+    }
+    
+}
+/*===================End Header Style===============*/

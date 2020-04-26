@@ -1,0 +1,68 @@
+/*===============FAQ Style=======================*/
+
+section.faq {
+    position: relative;
+    margin-top: 140px;
+
+ .card{
+    border-radius: 0;
+    margin-bottom: 30px;
+    .card-header{
+        position: relative;
+        background-color: transparent;
+        border-radius: 0;
+        border-bottom: 0;
+
+
+     .accordion-toggle.collapsed {
+         font-size: 18px;
+         color: #000000;
+
+         .fa-minus-circle{
+            display: none;
+           
+        }
+        .fa-plus-circle{
+            display: block;
+            position: absolute;
+            right: 5px;
+            font-size: 30px;
+            top: 7px;
+            color: #adadad;
+
+        }
+
+        }
+         .accordion-toggle {
+             font-size: 18px;
+             color: #000000;
+
+        
+            .fa-plus-circle{
+                display: none;
+        }
+        .fa-minus-circle{
+            position: absolute;
+            right: 5px;
+            font-size: 30px;
+            top: 7px;
+            color: #ff007a;
+        }
+
+
+        }
+
+        
+    }
+
+    .card-block {
+        padding: 0px 20px;
+
+        p{
+            font-size: 15px;
+            padding-bottom: 20px;
+        }
+    }
+ }
+}
+/*===============End FAQ=======================*/

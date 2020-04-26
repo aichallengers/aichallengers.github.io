@@ -1,0 +1,117 @@
+/*==================Contact Style=======================*/
+
+section.contact-us {
+    position: relative;
+    margin-top: 140px;
+
+    .map {
+        position: relative;
+        width: 100%;
+        height: 500px;
+        margin-top: 10px;
+
+        div#googleMap {
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .contact-details {
+        position: relative;
+
+        h2{
+            font-size: 36px;
+        }
+        p {
+            padding: 10px 0px;
+            font-weight: 600;
+        }
+
+        .single-contact-details {
+            position: relative;
+            padding-top: 20px;
+            h5{
+                padding-bottom: 5px;
+            }
+            p{
+                padding: 0;
+            }
+        }
+    }
+
+    .contact-us-de-info{    
+        position: relative;
+        display: flex;
+        text-align: center;
+        margin-bottom: 80px;
+
+
+        .single-contact-details {
+            position: relative;
+            margin-left: 15%;
+            padding: 0;
+            h5{
+                padding-bottom: 5px;
+            }
+            p{
+                padding: 0;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .contact-information {
+        position: relative;
+
+        input.cp1 {
+            position: relative;
+            padding: 25px 20px;
+            font-size: 14px;
+            margin-bottom: 25px;
+            border-radius: 0;
+        }
+        textarea.cp1 {
+            font-size: 14px;
+            padding: 25px 20px;
+            margin-bottom: 25px;
+            border-radius: 0;
+        }
+        button {
+            padding: 8px 25px;
+            background: #ff007a;
+            border: 0;
+            color: #fff;
+            transition: .5s ease;
+            text-transform: uppercase;
+            cursor: pointer;
+            margin-bottom: 20px;
+
+            &:hover{
+                
+            background: #8a2be2;
+            }
+        }
+    }
+    .contact-information-2{
+
+
+        h2{
+            font-size: 36px;
+            margin-bottom: 25px;
+        }
+
+        input.cp1 {
+            background: #f7f7f7;
+            border-radius: 3px;
+        }
+        textarea.cp1 {
+            background: #f7f7f7;
+            border-radius: 3px;
+        }
+        button {
+            border-radius: 3px;
+            cursor: pointer;
+        }
+    }
+}
+
+/*==================End Contact Style=======================*/

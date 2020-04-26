@@ -1,0 +1,170 @@
+/*================Error style=========================*/
+
+section.error {
+    position: relative;
+    margin-top: 150px;
+    text-align: center;
+
+
+    .error-img {
+        position: relative;
+        text-align: center;
+
+        img{
+            width: auto;
+
+        }
+        h1 {
+            margin: 60px auto; 
+        }
+        a.btn-2{
+            &:hover{
+                
+            background: #ff007a !important;
+            }
+        }
+    }
+}
+/*================End Error style=========================*/
+
+/*================Commingsoon Style=========================*/
+
+section.commingsoon {
+    position: relative;
+    text-align: center;
+    padding: 179px 0px;
+    background: url(../img/comming-soon.jpg);
+    z-index: 1;
+
+
+    &::before{
+        position: absolute;
+        content: '';
+        height: 100%;
+        width: 100%;
+        left: 0;
+        background-image: -moz-linear-gradient(-180deg, #f50068 0%, #441066 100%);
+        background-image: -webkit-linear-gradient(-180deg, #f50068 0%, #441066 100%);
+        background-image: -ms-linear-gradient(-180deg, #f50068 0%, #441066 100%);
+        opacity: 0.902;
+        top: 0;
+        z-index: -1;
+    }
+    img {
+        width: auto;
+        margin-bottom: 50px;
+    }
+
+    h1 {
+        font-size: 72px;
+        line-height: 93px;
+        color: #fff;
+    }
+    p {
+        color: #ffffff;
+        max-width: 767px;
+        margin: auto;
+        padding-top: 20px;
+    }
+    #clockdiv {
+        display: inline-flex;
+        position: relative;
+
+        .time {
+            display: inline-block;
+            width: 170px;
+            padding: 60px 0px;
+            text-align: center;
+            span {
+                font-size: 72px;
+                color: #ffffff;
+                font-weight: 700;
+                line-height: 82px;
+            }
+        .smalltext {
+                font-size: 22px;
+                color: #ffffff;
+                font-weight: 600;
+            }
+        } .dot {
+            font-size: 50px;
+            color: #ffffff;
+            padding: 100px 10px;
+        }
+    }
+    .subscribe {
+        max-width: 600px;
+        margin: auto;
+
+        form {
+            width: 100%;
+            display: flex;
+
+            input.form-control {
+                max-width: 78%;
+                padding: 30px 15px;
+                font-size: 14px;
+                border-radius: 0;
+                border: 0;
+            }
+
+        .sub-btn {
+                font-size: 16px;
+                background: #ff007a;
+                padding: 0px 30px;
+                border-color: #ff007a;
+                margin-left: 15px;
+                border-radius: 0;
+
+                &:hover{
+                    background: #8a2be2;
+                    border-color: #8a2be2;
+                }
+                &:focus{
+                    background: #8a2be2;
+                    border: 0;
+                    outline: 0;
+                    box-shadow: 0;
+                }
+            }
+        }
+      
+    }
+    .fb-s-icon {
+        position: relative;
+        margin-top: 50px;
+
+        ul {
+            position: relative;
+
+            li {
+                border-radius: 50%;
+                background: #ffffff;
+                height: 35px;
+                width: 35px;
+                display: inline-block;
+                transition: .3s ease;
+                margin-left: 10px;
+                
+                &:hover{
+                        background: #ff007a;
+
+                        a{
+                            color: #fff;
+                        }
+                }
+
+              
+                a{
+                    font-size: 17px;
+                    color: #ff007a;
+                    padding: 10px 8px;
+                    display: block;
+                    transition: .3s ease;
+    
+                }
+            }
+        }
+    }
+}
+/*================End Commingsoon Style=========================*/

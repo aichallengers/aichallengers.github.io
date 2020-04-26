@@ -1,0 +1,273 @@
+/* Pricing Section Style */
+
+
+section.pricing {
+    position: relative;
+    width: 100%;
+    margin-top: 120px;
+    text-align: center;
+
+    &::before{
+        top: 0;
+        position: absolute;
+        content: '';
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        left: 0;
+        background-repeat: no-repeat;
+        left: 0;
+        height: 55%;
+        background-image: url(../img/bg-img/pricing-bg.jpg);
+    }
+    
+    &::after{
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 55%;
+        background-image: -moz-linear-gradient(-9deg, #ef2393 0%, blueviolet 97%);
+        background-image: -webkit-linear-gradient(-9deg, #ef2393 0%, blueviolet 97%);
+        background-image: -ms-linear-gradient(-9deg, #ef2393 0%, blueviolet 97%);
+        opacity: 0.702;
+        left: 0;
+        top: 0;
+          
+          
+
+    }
+
+    .modal{
+
+        .modal-content {
+            padding: 20px;
+            margin-top: 30%;
+
+            .modal-header button.close {
+                font-size: 30px;
+                padding-top: 0;
+                color: #ff007a;
+                opacity: 1;
+                &:hover{
+                    opacity: .5;
+                }
+            }
+        }
+       
+    }
+  
+    .pricing-top {
+        position: relative;
+        z-index: 1;
+        h1{
+            color: #fff;
+            padding: 100px 0px;
+        }
+    }
+
+    .single-priceing {
+        position: relative;
+        padding: 34px 70px;
+        margin-top: -30px;
+        box-shadow: 0px 6px 40px 0px rgba(255, 172, 228, 0.08);
+        z-index: 1;
+        background: #fff;
+          
+        h1 {
+            font-size: 72px;
+            line-height: 85px;
+            padding: 15px 0px;
+            color: #8a2be2;
+            padding-bottom: 0;
+        }
+        p {
+            line-height: 30px;
+            padding: 20px 32px;
+        }
+        span{
+            color: #ff007a;
+            letter-spacing: 0;
+            font-weight: 600;
+            padding-bottom: 25px;
+            display: block;
+        }
+        .btn-3{
+            color: #0c0b1f;
+            font-weight: 600;
+
+            &:hover{
+                color: #fff;
+            }
+        }
+        .btn-3.active{
+            background-color: #ff007a;
+            color: #fff;
+        }
+    }
+
+
+
+
+
+}
+
+section.pricing2 {
+    padding-bottom: 100px;
+
+    &::before{
+        background-image: url(../img/bg-img/pricing-bg2.jpg);
+        height: 100%;
+    }
+    
+    &::after{
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-image: -moz-linear-gradient( -180deg, rgb(39,189,181) 0%, rgb(26,41,231) 100%);
+        background-image: -webkit-linear-gradient( -180deg, rgb(39,189,181) 0%, rgb(26,41,231) 100%);
+        background-image: -ms-linear-gradient( -180deg, rgb(39,189,181) 0%, rgb(26,41,231) 100%);
+        opacity: 0.82;
+        left: 0;
+        top: 0;
+    }
+    .pricing-top {
+        position: relative;
+        z-index: 1;
+
+      
+        h1{
+            color: #fff;
+            padding: 100px 0px;
+        }
+    }
+
+    .single-priceing {
+        background: unset;
+        background-image: url(../img/bg-img/pricing-bg3.png);
+        background-size: contain;
+        box-shadow: unset;
+          
+        h1 {
+            color: #1a41c9;
+        }
+        p {
+            line-height: 30px;
+            padding: 20px 32px;
+        }
+        span{
+            color: initial;
+            display: block;
+        }
+        .btn-3{
+            color: #0c0b1f;
+            font-weight: 600;
+            &::after{
+                background: #27bdb5;
+            }
+            &:hover{
+                color: #fff;
+                
+            }
+        }
+    }
+
+
+
+
+.pp-2-bg{
+    position: relative;
+    
+    
+    &::before{
+        position: absolute;
+        content: '';
+        background: url(../img/hero/hero-effect5.png);
+        width: 16%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 1;
+        right: 0;
+    }
+}
+}
+
+section.pricing4 {
+    padding-bottom: 100px;
+
+    
+    &::after{
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-image: -moz-linear-gradient( -180deg, rgb(255,0,122) 0%, rgb(138,43,226) 100%);
+        background-image: -webkit-linear-gradient( -180deg, rgb(255,0,122) 0%, rgb(138,43,226) 100%);
+        background-image: -ms-linear-gradient( -180deg, rgb(255,0,122) 0%, rgb(138,43,226) 100%);
+        opacity: 0.82;
+        left: 0;
+        top: 0;
+          
+    }
+    .pricing-top {
+        position: relative;
+        z-index: 1;
+
+      
+        h1{
+            color: #fff;
+            padding: 100px 0px;
+        }
+    }
+
+    .single-priceing {
+        background: unset;
+        background-image: url(../img/bg-img/pricing-bg3.png);
+        background-size: contain;
+        box-shadow: unset;
+          
+        h1 {
+            color: #8a2be2;
+        }
+        p {
+            line-height: 30px;
+            padding: 20px 32px;
+        }
+        span{
+            color: initial;
+            display: block;
+        }
+        .btn-3{
+            color: #0c0b1f;
+            font-weight: 600;
+            &::after{
+                background: #ff007a;
+            }
+            &:hover{
+                color: #fff;
+                
+            }
+        }
+    }
+
+
+
+
+.pp-2-bg{
+    position: relative;
+    
+    
+    &::before{
+       display: none;
+       
+    }
+}
+}
+
+
+
+
+
+
+/* End Pricing Section Style */

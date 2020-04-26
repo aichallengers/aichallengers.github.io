@@ -1,0 +1,256 @@
+/*======================Footer Style======================*/
+
+footer.footer-area {
+    position: relative;
+    margin-top: 140px;
+    text-align: center;
+    background-image: url(../img/bg-img/footer-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+
+    &::before{
+        position: absolute;
+        content: '';
+        left: 0;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        background: url(../img/bg-img/footer-overlay-bg.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .subscribe {
+        position: relative;
+        max-width: 767px;
+        margin: auto;
+        z-index: 1;
+        padding-top: 135px;
+        padding-bottom: 80px;
+        h1 {
+            margin-bottom: 50px;
+            color: #fff;
+        }
+
+        form {
+            position: relative;
+            display: flex;
+
+            .form-control {
+                width: 70%;
+                padding: 30px 25px;
+                font-size: 14px;
+                color: #495057;
+                border: 0;
+                border-radius: 0;
+                margin: auto;
+            }
+            .sub-btn {
+                padding: 15px 10px;
+                width: 25%;
+                font-size: 16px;
+                background: #8a2be2;
+                font-family: sans-serif;
+                border: 0;
+                border-radius: 0;
+
+                &:focus{
+                    border: none;
+                    box-shadow: none; 
+                    background: #fd058e;
+                    
+                }
+                &:hover{
+                    border: none;
+                    box-shadow: none; 
+                    background: #fd058e;
+                    
+                }
+                &:active{
+                    border: none;
+                    box-shadow: none;
+                    background: #fd058e;
+                }
+            }
+        }
+    }
+
+
+    .footer-nav {
+        position: relative;
+        padding-bottom: 25px;
+        ul{
+            li{
+                a{
+                    color: #fafcff;
+                    padding: 10px 15px;
+
+                    &:hover{
+                        color: #fd058e;
+                    }
+                }
+            }
+        }
+    }
+    
+
+    .footer-bottom {
+        position: relative;
+        width: 100%;
+        display: flex;
+        padding: 18px 0px;
+        padding-bottom: 35px;
+        border-top: 1px solid #fff;
+        .logo {
+            position: relative;
+            width: 12%;
+        }
+        .fb-text {
+            position: relative;
+            width: 74%;
+            margin: auto;
+            p{
+                color: #9499af;
+                padding: 7px 0px;
+                
+                a{
+                    color: #fff;
+
+                    &:hover{
+                        color: #fd058e;
+                    }
+                }
+
+            }
+        }
+        .fb-s-icon {
+            position: relative;
+            width: 15%;
+            margin-left: auto;
+            text-align: right;
+
+            ul{
+                li{
+                    border-radius: 50%;
+                    background: #262b40;
+                    height: 35px;
+                    width: 35px;
+                    display: inline-block; 
+                   
+                    
+                    a{
+                        font-size: 17px;
+                        color: #fff;
+                        padding: 9px 10px;
+                        display: block;
+
+                        &:hover{
+                            color: #fd058e;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer.footer-area-2 {
+    background-image: url(../img/bg-img//footer-bg2.jpg);
+
+    &::before{
+        background: url(../img/bg-img/footer-bg-overly-2.png);
+    }
+
+    .subscribe {
+        position: relative;
+        max-width: 767px;
+        margin: auto;
+        z-index: 1;
+        padding-top: 135px;
+        padding-bottom: 80px;
+        h1 {
+            margin-bottom: 50px;
+            color: #fff;
+        }
+
+        form {
+            position: relative;
+            display: flex;
+
+            .form-control {
+                width: 70%;
+                padding: 30px 15px;
+                font-size: 14px;
+                color: #495057;
+                border: 0;
+                border-radius: 0;
+                margin: auto;
+            }
+            .sub-btn {
+                padding: 15px 10px;
+                width: 25%;
+                font-size: 16px;
+                background: #27bdb5;
+                font-family: sans-serif;
+                border: 0;
+                border-radius: 0;
+
+                &:focus{
+                    border: none;
+                    box-shadow: none; 
+                    
+                }
+                &:active{
+                    border: none;
+                    box-shadow: none;
+                    background: #dc3545;
+                }
+            }
+        }
+    }
+
+
+    .footer-nav {
+        position: relative;
+        padding-bottom: 25px;
+        ul{
+            li{
+                a{
+                    color: #fafcff;
+                    padding: 10px 15px;
+
+                    &:hover{
+                        color: #27bdb5;
+                    }
+                }
+            }
+        }
+    }
+    
+
+    .footer-bottom {
+        .logo {
+            position: relative;
+            width: 12%;
+        }
+        .fb-text {
+            p{
+            }
+        }
+        .fb-s-icon {
+
+            ul{
+                li{
+                    a{
+
+                        &:hover{
+                            color: #27bdb5;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*======================End Footer Style======================*/

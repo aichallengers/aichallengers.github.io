@@ -1,0 +1,332 @@
+/*============Hero Area Style===================*/
+
+/*--------------Hero 1--------------*/
+section.hero-1 {
+    position: relative;
+    width: 100%;
+
+    .hero-slide1{
+        position: relative;
+        width: 100%;
+
+       .slide{
+           position: relative;
+
+           &::before{
+               position: absolute;
+               content: '';
+               background-color: rgb(138, 43, 226) ;
+               opacity: .722;
+               height: 100%;
+               width: 100%;
+               top: 0;
+               z-index: 1;
+                 
+           }
+
+
+        .hero-slide-wrapper {
+            position: relative;
+            width: 100%;
+
+            img{
+                position: absolute;
+                object-fit: cover;
+                height: 100%;
+            }
+            img.hero-effect {
+                width: unset;
+                position: absolute;
+                right: 0;
+                z-index: 2;
+            }
+            
+           .hero-slide-content {
+            width: 100%;
+            position: relative;
+            padding: 200px 0px 180px;
+            z-index: 1;
+            h1 {
+                font-size: 72px;
+                line-height: 86px;
+                margin-bottom: 0px;
+                color: #fff;
+            }
+            p {
+                color: #ffffff;
+                width: 476px;
+                padding: 25px 0px 35px;
+            }
+        }
+        }
+       }
+    }
+}
+
+section.hero-2{
+
+    background-image: url(../img/hero/hero-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    position: relative;
+
+    &::before{
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-image: -moz-linear-gradient( -180deg, rgb(26,41,231) 0%, rgb(39,189,181) 100%);
+        background-image: -webkit-linear-gradient( -180deg, rgb(26,41,231) 0%, rgb(39,189,181) 100%);
+        background-image: -ms-linear-gradient( -180deg, rgb(26,41,231) 0%, rgb(39,189,181) 100%);
+        opacity: 0.902;
+        z-index: -1;
+    }
+
+    &::after{
+        background: url(../img/hero/hero-effect2.png);
+        position: absolute;
+        content: '';
+        width: 25%;
+        top: 0;
+        right: 0;
+        background-position: center;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+
+    .hero-content {
+        position: relative;
+        text-align: center;
+        padding: 210px 0px 250px;
+
+        &::before{
+            content: '';
+            position: absolute;
+            width: 50%;
+            height: 35%;
+            background: url(../img/hero/hero-effect4.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            left: -39%;
+            bottom: 0%;
+        }
+
+        h1 {
+            font-size: 90px;
+            line-height: 120px;
+            color: #fff;
+        }
+        span{
+            color: #fff;
+            margin-left: 30px;
+        }
+    }
+}
+
+/*--------------Hero 1--------------*/
+
+/*----------------Hero 3-----------*/
+
+section.hero-3 {
+    position: relative;
+
+    &::before{
+        position: absolute;
+        content: '';
+        background: url(../img/hero/hero-bg-2.png);
+        height: 136%;
+        width: 100%;
+        top: 0;
+        right: 0;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 100%;
+    }
+
+    .hero-3-animation{
+        img{
+            width: auto;
+        }
+        img.h3-animation1 {
+            position: absolute;
+            top: 30%;
+            left: 2%;
+        }
+        img.h3-animation2 {
+            position: absolute;
+            bottom: 0;
+            left: 2%;
+            animation: spin 4s infinite;
+            animation-duration: 6000ms;
+            animation-delay: 2s;
+            animation-timing-function: ease-in;
+        }
+        img.h3-animation3 {
+            position: absolute;
+            bottom: -20px;
+            left: 25%;
+        }
+    }
+
+    .hero-content{
+        position: relative;
+        padding: 200px 0px;
+
+        h1 {
+            font-size: 72px;
+            line-height: 82px;
+            font-weight: 700;
+        }
+        span{
+            color: #ff18b6;
+        }
+        .btn-1{
+            margin-top: 50px;
+            background-color: #4413f0;
+        } 
+    }
+
+    .hero-3-img {
+        position: absolute;
+        width: 80%;
+        top: 20%;
+        right: -20%;
+        -webkit-animation-name: roket;
+        animation-name: roket;
+        -webkit-animation: roket 4s both alternate infinite;
+        animation: roket 4s both alternate infinite;
+        animation-duration: 6000ms;
+        animation-delay: 2s;
+        animation-timing-function: ease-in;
+        
+        img{
+            width: auto;
+        }
+    }
+
+}
+/*----------------End Hero 3-----------*/
+
+/*----------------Hero 4 Style-----------*/
+section.hero-4 {
+    position: relative;
+    background: url(../img/hero/hero-bg-4.png);
+    height: 78%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    background-size: cover;
+    background-position: 100% 45%;
+    padding-bottom: 113px;
+    
+    .hero-content {
+        position: relative;
+        padding-top: 250px;
+        max-width: 650px;
+
+        h1 {
+            font-size: 72px;
+            line-height: 82px;
+            margin-bottom: 30px;
+        }
+        a.btn-1 {
+            border-radius: 30px;
+            padding: 17px 50px;
+        }
+        span{
+            color: #ff18b6;
+            letter-spacing: 0;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+    }
+}
+
+/*----------------End Hero 4 Style-----------*/
+
+
+/*---------------Inner Hero Style-------------*/
+
+section.inner-hero {
+    position: relative;
+    background: url(../img/hero/inner-hero-1.jpg);
+    background-size: cover;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+
+    &::before{
+        position: absolute;
+        content: '';
+        height: 100%;
+        width: 100%;
+        background-color: rgb(138, 43, 226);
+        opacity: 0.6;
+    }
+
+    .ih-content {
+        text-align: center;
+        position: relative;
+        padding: 160px 0px 120px;
+        h1{
+            color: #fff;
+        }
+        nav{
+            ol.breadcrumb {
+                display: block;
+                background-color: transparent;
+                padding: 0;
+                margin: 0;
+                padding-top: 15px;
+
+                li.breadcrumb-item{
+                    a{         
+                        color: #fff;
+                    }
+                }
+                .breadcrumb-item+.breadcrumb-item{
+
+                    &::before {
+                        display: inline-block;
+                        padding-right: .5rem;
+                        color: #ffffff;
+                        content: "|";
+                    }
+                }
+                .breadcrumb-item.active {
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
+section.inner-hero2 {
+    background: url(../img/hero/inner-hero-2.jpg);
+    background-position: center;
+
+    &::before{
+        position: absolute;
+        content: '';
+        height: 100%;
+        width: 100%;
+        background-color: rgb(138, 43, 226);
+        opacity: 0.702;
+    }
+  
+}
+
+section.inner-hero3 {
+    background: url(../img/hero/inner-hero-3.jpg);
+}
+section.inner-hero4 {
+    background: url(../img/hero/inner-hero-4.jpg);
+}
+/*---------------End Inner Hero Style-------------*/
+
+
+/*============End Hero Area Style===================*/

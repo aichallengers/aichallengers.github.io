@@ -1,0 +1,66 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 25/01/2020 09:01
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-targeting:before { content: "\f100"; }
+.flaticon-arrow-pointing-to-right:before { content: "\f101"; }
+.flaticon-left-arrow:before { content: "\f102"; }
+.flaticon-calendar:before { content: "\f103"; }
+.flaticon-right-thin-chevron:before { content: "\f104"; }
+.flaticon-telephone:before { content: "\f105"; }
+.flaticon-pin:before { content: "\f106"; }
+.flaticon-microphone:before { content: "\f107"; }
+.flaticon-collaboration:before { content: "\f108"; }
+.flaticon-confetti:before { content: "\f109"; }
+.flaticon-coffee-cup:before { content: "\f10a"; }
+.flaticon-bus:before { content: "\f10b"; }
+.flaticon-location:before { content: "\f10c"; }
+    
+    $font-Flaticon-targeting: "\f100";
+    $font-Flaticon-arrow-pointing-to-right: "\f101";
+    $font-Flaticon-left-arrow: "\f102";
+    $font-Flaticon-calendar: "\f103";
+    $font-Flaticon-right-thin-chevron: "\f104";
+    $font-Flaticon-telephone: "\f105";
+    $font-Flaticon-pin: "\f106";
+    $font-Flaticon-microphone: "\f107";
+    $font-Flaticon-collaboration: "\f108";
+    $font-Flaticon-confetti: "\f109";
+    $font-Flaticon-coffee-cup: "\f10a";
+    $font-Flaticon-bus: "\f10b";
+    $font-Flaticon-location: "\f10c";

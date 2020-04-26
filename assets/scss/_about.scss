@@ -1,0 +1,249 @@
+/*=============About Section Style===============*/
+
+section.about-section {
+    position: relative;
+    padding-top: 140px;
+    overflow: hidden;
+
+    &::before{
+    position: absolute;
+    content: '';
+    width: 350px;
+    height: 460px;
+    background: url(../img/slide/slide-element1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: -25%;
+    left: -10%;
+    -webkit-animation-name: slideInnew3;
+    animation-name: slideInnew3;
+    -webkit-animation: slideInnew3 4s both alternate infinite;
+    animation: slideInnew3 4s both alternate infinite;
+    animation-duration: 6000ms;
+    animation-delay: 2s;
+    animation-timing-function: ease-in;
+    
+    }
+
+    .amout-img {
+        position: relative;
+        width: calc(100% + 20%);
+        margin-left: -25%;
+
+        &::before{
+            position: absolute;
+            content: '';
+            width: 200px;
+            height: 235px;
+            background: url(../img/slide/slide-element2.png);
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            top: -19%;
+            left: -7%;
+            z-index: -1;
+            }
+
+    }
+    .about-content {
+        position: relative;
+        padding-top: 50px;
+
+        p {
+           
+            padding:35px 0px;
+        }
+        a.btn-3 {
+            margin-left: 25px;
+        }
+    }
+
+  
+        .modal-dialog {
+        padding-top: 5%;
+        max-width: 1000px;
+        }
+        .modal-content {
+        border: none;
+        }
+        .modal-header {
+        border: none;
+        padding: 0px;
+        position: absolute;
+        z-index: 1;
+        right: 0;
+        top: 0;
+        }
+        .modal-body {
+        position: relative;
+        padding: 0px;
+        }
+        #headerPopup {
+        width: 100%;
+        height: 550px;
+        margin: 0 auto;
+        }
+        #headerPopup iframe {
+        width: 100%;
+        height: 100%;
+        clear: both;
+        margin: 0 auto;
+        }
+
+}
+
+section.ab-section2{
+
+    &::before{
+        display: none;
+    }
+
+    .about-content{
+        position: relative;
+        
+        a.btn-2{
+            background: #1a41c9;
+
+            &:hover{
+                background: #27bdb5 !important;
+            }
+        }
+        a.btn-1{
+            background: #27bdb5;
+            margin-left: 30px;
+            padding: 14px 34px;
+        }
+
+    }
+   .amout-img {
+        position: relative;
+        width: calc(100% + 20%);
+        margin-left: 0;
+
+        &::before {
+            height: 300px;
+            bottom: -23%;
+            left: unset;
+            top: unset;
+            right: -6%;
+        }
+    }
+}
+
+
+section.about-conference {
+    position: relative;
+
+    &::before{
+    display: none;
+    }
+
+    .amout-img {
+        position: relative;
+        width: calc(100% + 20%);
+        margin-left: -25%;
+
+        &::before{
+            position: absolute;
+            content: '';
+            width: 319px;
+            height: 237px;
+            background: url(../img/slide/slide-element2.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            top: unset;
+            left: -7%;
+            bottom: -11%;
+            z-index: -1;
+            }
+
+    }
+    .about-content {
+        position: relative;
+        padding-top: 50px;
+        span{
+            color: #ff007a;
+            letter-spacing: 0;
+            font-weight: 500;
+        }
+        p {
+            padding-top: 20px;
+            padding-bottom: 30px;
+        }
+        a.btn-1 {
+            padding: 10px 30px;
+            border-radius: 25px;
+        }
+        
+
+    }
+}
+
+
+
+/*============Speaker Details Style==============*/
+section.speaker-details {
+    position: relative;
+    margin-top: 140px;
+    .sd-img {
+        margin-right: 15px;
+        position: relative;
+
+        &::before{
+            position: absolute;
+            width: 50%;
+            height: 80%;
+            left: -10%;
+            content: '';
+            z-index: -1;
+            top: -10%;
+            background: url(../img/slide/slide-element2.png);
+        }
+    }
+    .sd-text {
+        position: relative;
+
+        span{
+            color: #ff007a;
+            letter-spacing: 0;
+            font-weight: 500;
+            padding-bottom: 20px;
+            display: block;
+        }
+        p{
+            position: relative;
+            padding-top: 20px;
+            border-top: 1.5px solid #959595;
+
+            &:last-child{
+                border: none;
+               }
+        }
+
+      
+   
+    }
+    .icon{
+        position: relative;
+        padding-top: 20px;
+        ul {
+            position: relative;
+
+            li{
+                display: inline-block;
+                a{
+                    color: #8e8d8e;
+                    margin-right: 10px;
+                    font-size: 25px;
+
+                    &:hover{
+                        color: #ff007a;
+                    }
+                }
+            }
+        }
+    }
+}
+/*============End Speaker Details Style==============*/
